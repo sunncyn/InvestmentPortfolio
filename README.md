@@ -1,6 +1,6 @@
 # InvestmentPortfolio
 let's build your own investment portfolio dashboard on googlesheet !! 
-please check out this [**Template spreadsheet**](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing)
+please check out this [Template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing)
 and feel free to make a copy of the file by going to `File` then `Make a Copy` 
 
 <!-- TABLE OF CONTENTS -->
