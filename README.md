@@ -10,9 +10,10 @@ Now, let's build your own investment portfolio dashboard on googlesheet !!
 * [About the Project](#about-the-project)
 * [Detail](#detail)
 * [Usage](#usage)
- * [How to start](#how-to-start)
+* [Instruction](#instruction)
 * [Troubleshooting](#troubleshooting)
- * [FAQ](#FAQ)
+* [FAQ](#FAQ)
+* [Disclaimer](#disclaimer) 
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -56,6 +57,9 @@ if you find any **bug**, please report them at the [open issues](https://github.
 
 1. Can not scape data from SET - error show that `couldn't fetch the data` : try change from `https` to `http` and vice versa
 
+<!-- Disclaimer -->
+## Disclamer
+All information provided on this spreadsheet is for informational purposes only and does not constitute professional financial advice. There can be errors with this tool and the sources it pulls from. The creator does not take responsibility for those errors and is not obligated to correct them.
 
 <!-- CONTACT -->
 ## Contact
@@ -63,8 +67,6 @@ if you find any **bug**, please report them at the [open issues](https://github.
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - chayanont1997@hotmail.com
 
 Project Link: [https://github.com/sunncyn/InvestmentPortfolio](https://github.com/sunncyn/InvestmentPortfolio)
-
-
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
