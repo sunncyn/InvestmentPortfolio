@@ -8,8 +8,11 @@ Now, let's build your own investment portfolio dashboard on googlesheet !!
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Detail](#detail)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+ * [How to start](#how-to-start)
+* [Troubleshooting](#troubleshooting)
+ * [FAQ](#FAQ)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -22,23 +25,36 @@ Now, let's build your own investment portfolio dashboard on googlesheet !!
 
 We build a google sheet which can automatically track all owned assets; stocks(HKEX, NASDAQ, SET, etc.), cryptocurrencies, mutual funds etc. to provide insight into historical dynamic wealth position and real-time dashboard for better financial decision making
 
-**for stocks in HKEX, NASDAQ & Cryptocurrencies - we use GooglefinanceAPI to fetch data **
+<!-- DETAIL -->
+## Technical Detail
 
-**for stocks in SET & Mutual funds - we use Web scraping to fetch data **
+1. we use GooglefinanceAPI to fetch data of stocks in HKEX, NASDAQ & Cryptocurrencies
+2. we use Web scraping to fetch data of stocks in SET & Mutual funds
+3. `PortfolioTrending` script is for recording portfolio position (you may need to set this script to run daily at project's trigger)
+4. `AutoRefresh` script is for making sure that every data have already download before record (sometimes data we scrape from website take time to download)
+5. `CryptoFinance` script is (right now) only for fetching 24 hrs pct change of cryptocurrencies 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing), we provide an example of portfolio that include stocks(HKEX, NASDAQ, SET), cryptocurrencies, mutual funds.
+
+### How to start
+
+1.
+2.
+3.
+4.
+5.
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- Troubleshooting -->
+## Troubleshooting
+if you find any **bug**, please report them at the [open issues](https://github.com/sunncyn/InvestmentPortfolio/issues).
+### FAQ
 
-See the [open issues](https://github.com/sunncyn/InvestmentPortfolio/issues) for a list of proposed features (and known issues).
-
-
+1. Can not scape data from SET - error show that `couldn't fetch the data` : try change from `https` to `http` and vice versa
 
 
 <!-- CONTACT -->
