@@ -1,5 +1,7 @@
 # InvestmentPortfolio
 let's build your own investment portfolio dashboard on googlesheet !! 
+please check out this [**Template spreadsheet**](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing)
+and feel free to make a copy of the file by going to `File` then `Make a Copy` 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -17,17 +19,15 @@ let's build your own investment portfolio dashboard on googlesheet !!
 
 ![](figures/overview_screenshot.png)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`sunncyn`, `InvestmentPortfolio`, , `chayanont1997@hotmail.com`
+We build a google sheet which can automatically track all owned assets; stocks(HKEX, NASDAQ, SET, etc.), cryptocurrencies, mutual funds etc. to provide insight into historical dynamic wealth position and real-time dashboard for better financial decision making
 
+**for stocks in HKEX, NASDAQ & Cryptocurrencies - we use GooglefinanceAPI to fetch data **
+**for stocks in SET & Mutual funds - we use Web scraping to fetch data **
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
