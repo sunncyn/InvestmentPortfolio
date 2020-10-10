@@ -15,7 +15,8 @@ let's build your own investment portfolio dashboard on googlesheet !!
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-dddscreenshot]](figures/overview.png)
+![](figures/forecast_config.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
