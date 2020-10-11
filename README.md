@@ -37,16 +37,14 @@ We build a google sheet which can automatically track all owned assets; stocks(H
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing), we provide an example of portfolio that include stocks(HKEX, NASDAQ, SET), cryptocurrencies, mutual funds.
+from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing), we provide an example of portfolio that include stocks(HKEX, NASDAQ, SET), cryptocurrencies, mutual funds. This project use Thai Baht as the main currency.
 
 ### Instruction
 
-1.
-2.
-3.
-4.
-5.
-
+1. Enter the number of money you deposit to/withdraw from portfolio
+2. Enter record of currency exchange "
+3. Enter stock symbol, stock market, price, commission fee
+4. Add row for new stock, and other information will be fetched from other sheet, website, or API.
 
 
 <!-- Troubleshooting -->
