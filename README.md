@@ -42,7 +42,7 @@ from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCo
 ### Instruction
 
 1. Enter the number of money you deposit to/withdraw from portfolio
-2. Enter record of currency exchange "
+2. Enter record of currency exchange 
 3. Enter stock symbol, stock market, price, commission fee
 4. Add row for new stock, and other information will be fetched from other sheet, website, or API.
 
