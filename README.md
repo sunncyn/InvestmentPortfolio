@@ -12,7 +12,6 @@ Now, let's build your own investment portfolio dashboard on googlesheet !!
 * [Usage](#usage)
 * [Instruction](#instruction)
 * [Troubleshooting](#troubleshooting)
-* [FAQ](#FAQ)
 * [Disclaimer](#disclaimer) 
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -32,7 +31,7 @@ We build a google sheet which can automatically track all owned assets; stocks(H
 1. we use GooglefinanceAPI to fetch data of stocks in HKEX, NASDAQ & Cryptocurrencies
 2. we use Web scraping to fetch data of stocks in SET & Mutual funds
 3. `PortfolioTrending` script is for recording portfolio position (you may need to set this script to run daily at project's trigger)
-4. `AutoRefresh` script is for making sure that every data have already download before record (sometimes data we scrape from website take time to download)
+4. `AutoRefresh` script is for making sure that every data have already downloaded before recording (it may take a few second to fetch data from website)
 5. `CryptoFinance` script is (right now) only for fetching 24 hrs pct change of cryptocurrencies 
 
 <!-- USAGE EXAMPLES -->
@@ -40,7 +39,7 @@ We build a google sheet which can automatically track all owned assets; stocks(H
 
 from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCoHAxi5tc2f4QI8hnFmzJQpaBJSzW_MJ-WYmI/edit?usp=sharing), we provide an example of portfolio that include stocks(HKEX, NASDAQ, SET), cryptocurrencies, mutual funds.
 
-### How to start
+### Instruction
 
 1.
 2.
@@ -64,18 +63,16 @@ All information provided on this spreadsheet is for informational purposes only 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - chayanont1997@hotmail.com
+Chayanont Potawananont (Sun) - chayanont1997@hotmail.com
 
 Project Link: [https://github.com/sunncyn/InvestmentPortfolio](https://github.com/sunncyn/InvestmentPortfolio)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
+This project was inspired from [danesh j](https://www.youtube.com/watch?v=mZi5Oe7Vsfg&t=205s).
+* [Official document for GOOGLE FINANCE function](https://support.google.com/docs/answer/3093281?hl=en)
+* [Google Sheets function list](https://support.google.com/docs/table/25273?hl=en)
+* [Auto-refresh script](https://stackoverflow.com/questions/33872967/periodically-refresh-importxml-spreadsheet-function)
 
 
 
