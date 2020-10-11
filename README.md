@@ -69,7 +69,7 @@ Project Link: [https://github.com/sunncyn/InvestmentPortfolio](https://github.co
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-This project was inspired from [danesh j](https://www.youtube.com/watch?v=mZi5Oe7Vsfg&t=205s).
+This project was inspired from [Create the Google Finance Portfolio in Google Sheets](https://www.youtube.com/watch?v=mZi5Oe7Vsfg&t=205s) by `danesh j`
 * [Official document for GOOGLE FINANCE function](https://support.google.com/docs/answer/3093281?hl=en)
 * [Google Sheets function list](https://support.google.com/docs/table/25273?hl=en)
 * [Auto-refresh script](https://stackoverflow.com/questions/33872967/periodically-refresh-importxml-spreadsheet-function)
