@@ -30,7 +30,7 @@ We build a google sheet which can automatically track all owned assets; stocks(H
 
 1. we use GooglefinanceAPI to fetch data of stocks in HKEX, NASDAQ & Cryptocurrencies
 2. we use Web scraping to fetch data of stocks in SET & Mutual funds
-3. `PortfolioTrending` script is for recording portfolio position (you may need to set this script to run daily at project's trigger)
+3. `PortfolioTrending` script is for recording portfolio position (you need to set this script to run daily at project's trigger)
 4. `AutoRefresh` script is for making sure that every data have already downloaded before recording (it may take a few second to fetch data from website)
 5. `CryptoFinance` script is (right now) only for fetching 24 hrs pct change of cryptocurrencies 
 
@@ -45,6 +45,7 @@ from the [template spreadsheet](https://docs.google.com/spreadsheets/d/1w3R4SSCo
 2. Enter record of currency exchange 
 3. Enter stock symbol, stock market, price, commission fee
 4. Add row for new stock, and other information will be fetched from other sheet, website, or API.
+5. Set the `PortfolioTrending` script to record portfolio position daily by going script editor -> project's trigger
 
 
 <!-- Troubleshooting -->
