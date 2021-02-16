@@ -22,7 +22,8 @@ Now, let's build your own investment portfolio dashboard on googlesheet !!
 ## About The Project
 
 ![example of the spreadsheet](overview_screenshot.png)
-![example of the spreadsheet](Portfolio Trend .png)
+
+![example of portfolio tracker](Portfolio Trend .png)
 
 We build a google sheet which can automatically track all owned assets; stocks(HKEX, NASDAQ, SET, etc.), cryptocurrencies, mutual funds etc. to provide insight into historical dynamic wealth position and real-time dashboard for better financial decision making
 
